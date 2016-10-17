@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="imageRadius" format="dimension" />
+
+    <attr name="imageType">
+        <enum name="round" value="1" />
+        <enum name="circle" value="2" />
+    </attr>
+
+    <declare-styleable name="SuperImageView">
+        <attr name="imageRadius" />
+        <attr name="imageType" />
+    </declare-styleable>
+
+</resources>
